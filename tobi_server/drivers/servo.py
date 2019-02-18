@@ -8,8 +8,8 @@ class ServoDriver(Pca9685I2cDriver):
     """
     """
 
-    def __init__(self):
+    def __init__(self, channel, frequency=60):
         """
         """
 
-        super(ServoDriver, self).__init__()
+        super(ServoDriver, self).__init__(channel, frequency)

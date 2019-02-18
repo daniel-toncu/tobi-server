@@ -15,7 +15,7 @@ class Pca9685I2cDriver(BaseDriver):
 
     MID_VALUE = MIN_VALUE + (MAX_VALUE - MIN_VALUE) // 2
 
-    def __init__(self, channel, frequency=60):
+    def __init__(self, channel, frequency):
         """
         """
 
